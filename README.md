@@ -1,3 +1,4 @@
+```markdown
 # Laravel To-Do Application 📝
 
 A clean, responsive, and easy-to-use To-Do application built with Laravel and Tailwind CSS. This project serves as a practical demonstration of CRUD operations, database management, and professional documentation practices.
@@ -14,6 +15,7 @@ A clean, responsive, and easy-to-use To-Do application built with Laravel and Ta
 - **Responsive UI:** Clean design, functional on both desktop and mobile.
 - **Zero Configuration:** Simple setup using SQLite.
 
+
 ## 🛠 Prerequisites
 Ensure you have the following installed on your machine:
 - PHP (v8.1+)
@@ -23,33 +25,45 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone <https://github.com/TigranVardanyan004/todo-app>
+   git clone [https://github.com/at0107/todo-app.git](https://github.com/at0107/todo-app.git)
    cd todo-app
 
-   Install Dependencies:
+```
 
-Bash
+2. **Install Dependencies:**
+```bash
 composer install
-Environment Setup:
 
-Bash
+```
+
+
+3. **Environment Setup:**
+```bash
 cp .env.example .env
 php artisan key:generate
-Database Configuration:
 
-Ensure DB_CONNECTION=sqlite is set in your .env file.
+```
 
-Run the migration to set up the tasks table:
 
-Bash
+4. **Database Configuration:**
+* Ensure `DB_CONNECTION=sqlite` is set in your `.env` file.
+* Run the migration to set up the tasks table:
+
+
+```bash
 touch database/database.sqlite
 php artisan migrate
-Start the Development Server:
 
-Bash
+```
+
+
+5. **Start the Development Server:**
+```bash
 php artisan serve
-Access the App:
-Navigate to http://localhost:8000 in your browser.
 
-🤝 Contributing
-Feel free to fork this project and submit a Pull Request if you'd like to improve the functionality!
+```
+
+6. **Access the App:**
+Navigate to [http://localhost:8000](https://www.google.com/search?q=http://localhost:8000) in your browser.
+
+```
