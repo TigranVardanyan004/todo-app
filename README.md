@@ -25,7 +25,7 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/at0107/todo-app.git](https://github.com/at0107/todo-app.git)
+   git clone <https://github.com/TigranVardanyan004/todo-app>
    cd todo-app
 
 ```
