@@ -23,5 +23,33 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/at0107/todo-app.git](https://github.com/at0107/todo-app.git)
+   git clone <https://github.com/TigranVardanyan004/todo-app>
    cd todo-app
+
+   Install Dependencies:
+
+Bash
+composer install
+Environment Setup:
+
+Bash
+cp .env.example .env
+php artisan key:generate
+Database Configuration:
+
+Ensure DB_CONNECTION=sqlite is set in your .env file.
+
+Run the migration to set up the tasks table:
+
+Bash
+touch database/database.sqlite
+php artisan migrate
+Start the Development Server:
+
+Bash
+php artisan serve
+Access the App:
+Navigate to http://localhost:8000 in your browser.
+
+🤝 Contributing
+Feel free to fork this project and submit a Pull Request if you'd like to improve the functionality!
